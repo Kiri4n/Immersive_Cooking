@@ -2,9 +2,9 @@
 	"credit": "Made with Blockbench",
 	"parent": "knife_tall",
 	"textures": {
-		"1": "luki/knife2",
-		"2": "luki/knife_tall",
-		"particle": "luki/knife_tall"
+		"1": "immcook:item/knife2",
+		"2": "immcook:item/knife_tall",
+		"particle": "immcook:item/knife_tall"
 	},
 	"elements": [
 		{
