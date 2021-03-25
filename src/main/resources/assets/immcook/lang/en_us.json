@@ -1,3 +1,5 @@
 {
-  "item.immcook.knife": "Knife"
+  "itemGroup.immcook.immcooktab": "Immersive cooking",
+  "item.immcook.knife": "Knife",
+  "block.immcook.cutting_board": "Cutting board"
 }
