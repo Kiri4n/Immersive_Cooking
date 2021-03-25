@@ -13,6 +13,10 @@ public class ModItems {
     public static final Item KNIFE = new Item(new Item.Settings().group(immcook.ITEM_GROUP));
     public static final Item KNIFE_TALL = new Item(new Item.Settings().group(immcook.ITEM_GROUP));
     public static final Item JUG_OF_WATER = new Item(new Item.Settings().group(immcook.ITEM_GROUP));
+    public static final Item JUG_OF_MILK = new Item(new Item.Settings().group(immcook.ITEM_GROUP));
+    public static final Item WHEAT_FLOUR = new Item(new Item.Settings().group(immcook.ITEM_GROUP));
+    public static final Item SALT = new Item(new Item.Settings().group(immcook.ITEM_GROUP));
+    public static final Item DOUGH = new Item(new Item.Settings().group(immcook.ITEM_GROUP));
 
     //Block items
     public static final BlockItem CUTTING_BOARD = new BlockItem(ModBlocks.CUTTING_BOARD, new Item.Settings().group(immcook.ITEM_GROUP));
@@ -22,6 +26,10 @@ public class ModItems {
         Registry.register(Registry.ITEM,new Identifier(immcook.MODID, "knife"), KNIFE);
         Registry.register(Registry.ITEM,new Identifier(immcook.MODID, "knife_tall"), KNIFE_TALL);
         Registry.register(Registry.ITEM,new Identifier(immcook.MODID, "jug_of_water"), JUG_OF_WATER);
+        Registry.register(Registry.ITEM,new Identifier(immcook.MODID, "jug_of_milk"), JUG_OF_MILK);
+        Registry.register(Registry.ITEM,new Identifier(immcook.MODID, "wheat_flour"), WHEAT_FLOUR);
+        Registry.register(Registry.ITEM,new Identifier(immcook.MODID, "salt"), SALT);
+        Registry.register(Registry.ITEM,new Identifier(immcook.MODID, "dough"), DOUGH);
 
         //Block items
         Registry.register(Registry.ITEM, new Identifier(immcook.MODID, "cutting_board"), CUTTING_BOARD);

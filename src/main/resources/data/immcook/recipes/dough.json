@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "immcook:wheat_flour"
+    },
+    {
+      "item": "immcook:jug_of_water"
+    },
+    {
+      "tag": "c:salt"
+    }
+  ],
+  "result": {
+    "item": "immcook:dough",
+    "count": 1
+  }
+}

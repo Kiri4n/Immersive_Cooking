@@ -1,5 +1,9 @@
 {
   "itemGroup.immcook.immcooktab": "Immersive cooking",
   "item.immcook.knife": "Couteau",
-  "item.immcook.jug_of_water": "Cruche d'eau"
+  "item.immcook.jug_of_water": "Cruche d'eau",
+  "item.immcook.jug_of_milk": "Cruche de lait",
+  "item.immcook.wheat_flour": "Farine de blé",
+  "item.immcook.salt": "Sel",
+  "item.immcook.dough": "Pâte"
 }

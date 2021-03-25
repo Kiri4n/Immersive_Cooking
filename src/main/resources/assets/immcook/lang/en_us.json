@@ -2,5 +2,9 @@
   "itemGroup.immcook.immcooktab": "Immersive cooking",
   "item.immcook.knife": "Knife",
   "block.immcook.cutting_board": "Cutting board",
-  "item.immcook.jug_of_water": "Jug of water"
+  "item.immcook.jug_of_water": "Jug of water",
+  "item.immcook.jug_of_milk": "Jug of milk",
+  "item.immcook.wheat_flour": "Wheat flour",
+  "item.immcook.salt": "Salt",
+  "item.immcook.dough": "Dough"
 }
