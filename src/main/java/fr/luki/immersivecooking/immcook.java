@@ -1,13 +1,10 @@
 package fr.luki.immersivecooking;
 
-import fr.luki.immersivecooking.init.ModBlocks;
+import fr.luki.immersivecooking.init.modBlocks.BasicBlocks;
 import fr.luki.immersivecooking.init.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
-import net.minecraft.client.search.Searchable;
-import net.minecraft.client.search.SearchableContainer;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
@@ -30,7 +27,7 @@ public class immcook implements ModInitializer {
     public void onInitialize() {
         log(Level.INFO, "Initializing");
         ModItems.registerAll();
-        ModBlocks.registerAll();
+        BasicBlocks.registerAll();
     }
 
     public static void log(Level level, String message){

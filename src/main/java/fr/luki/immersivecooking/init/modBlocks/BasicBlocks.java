@@ -1,4 +1,4 @@
-package fr.luki.immersivecooking.init;
+package fr.luki.immersivecooking.init.modBlocks;
 
 import fr.luki.immersivecooking.immcook;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
@@ -9,13 +9,15 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
-public class ModBlocks {
+public class BasicBlocks {
 
-    public static final Block CUTTING_BOARD = new Block(FabricBlockSettings
+    /*public static final Block CUTTING_BOARD = new Block(FabricBlockSettings
             .of(Material.WOOD)
             .breakByTool(FabricToolTags.AXES)
             .strength(0.75f, 2f)
-            .sounds(BlockSoundGroup.WOOD));
+            .sounds(BlockSoundGroup.WOOD)
+            .nonOpaque());*/
+    public static final Cutting_board CUTTING_BOARD = new Cutting_board();
 
     public static void registerAll(){
         Registry.register(Registry.BLOCK, new Identifier(immcook.MODID, "cutting_board"), CUTTING_BOARD);

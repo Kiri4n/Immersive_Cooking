@@ -1,5 +1,8 @@
 {
   "variants": {
-    "": { "model": "immcook:block/cutting_board"}
+    "facing=north": { "model": "immcook:block/cutting_board" , "y":  180 },
+    "facing=east":  { "model": "immcook:block/cutting_board", "y":  270 },
+    "facing=south": { "model": "immcook:block/cutting_board"},
+    "facing=west":  { "model": "immcook:block/cutting_board", "y": 90 }
   }
 }

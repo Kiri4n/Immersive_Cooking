@@ -1,9 +1,9 @@
 package fr.luki.immersivecooking.init;
 
 import fr.luki.immersivecooking.immcook;
+import fr.luki.immersivecooking.init.modBlocks.BasicBlocks;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
@@ -19,7 +19,7 @@ public class ModItems {
     public static final Item DOUGH = new Item(new Item.Settings().group(immcook.ITEM_GROUP));
 
     //Block items
-    public static final BlockItem CUTTING_BOARD = new BlockItem(ModBlocks.CUTTING_BOARD, new Item.Settings().group(immcook.ITEM_GROUP));
+    public static final BlockItem CUTTING_BOARD = new BlockItem(BasicBlocks.CUTTING_BOARD, new Item.Settings().group(immcook.ITEM_GROUP));
 
     public static void registerAll(){
         //Items
