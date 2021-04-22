@@ -17,9 +17,11 @@ public class ModItems {
     public static final Item WHEAT_FLOUR = new Item(new Item.Settings().group(immcook.ITEM_GROUP));
     public static final Item SALT = new Item(new Item.Settings().group(immcook.ITEM_GROUP));
     public static final Item DOUGH = new Item(new Item.Settings().group(immcook.ITEM_GROUP));
+    public static final Item WHISK = new Item(new Item.Settings().maxCount(1).group(immcook.ITEM_GROUP));
 
     //Block items
     public static final BlockItem CUTTING_BOARD = new BlockItem(BasicBlocks.CUTTING_BOARD, new Item.Settings().group(immcook.ITEM_GROUP));
+    public static final BlockItem MIXING_BOWL = new BlockItem(BasicBlocks.MIXING_BOWL, new Item.Settings().group(immcook.ITEM_GROUP));
 
     public static void registerAll(){
         //Items
@@ -30,8 +32,10 @@ public class ModItems {
         Registry.register(Registry.ITEM,new Identifier(immcook.MODID, "wheat_flour"), WHEAT_FLOUR);
         Registry.register(Registry.ITEM,new Identifier(immcook.MODID, "salt"), SALT);
         Registry.register(Registry.ITEM,new Identifier(immcook.MODID, "dough"), DOUGH);
+        Registry.register(Registry.ITEM,new Identifier(immcook.MODID, "whisk"), WHISK);
 
         //Block items
         Registry.register(Registry.ITEM, new Identifier(immcook.MODID, "cutting_board"), CUTTING_BOARD);
+        Registry.register(Registry.ITEM, new Identifier(immcook.MODID, "mixing_bowl"), MIXING_BOWL);
     }
 }

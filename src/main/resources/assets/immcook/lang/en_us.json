@@ -6,5 +6,7 @@
   "item.immcook.jug_of_milk": "Jug of milk",
   "item.immcook.wheat_flour": "Wheat flour",
   "item.immcook.salt": "Salt",
-  "item.immcook.dough": "Dough"
+  "item.immcook.dough": "Dough",
+  "item.immcook.whisk": "Whisk",
+  "block.immcook.mixing_bowl": "Mixing bowl"
 }

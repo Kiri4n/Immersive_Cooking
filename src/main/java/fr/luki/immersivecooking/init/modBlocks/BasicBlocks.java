@@ -11,15 +11,11 @@ import net.minecraft.util.registry.Registry;
 
 public class BasicBlocks {
 
-    /*public static final Block CUTTING_BOARD = new Block(FabricBlockSettings
-            .of(Material.WOOD)
-            .breakByTool(FabricToolTags.AXES)
-            .strength(0.75f, 2f)
-            .sounds(BlockSoundGroup.WOOD)
-            .nonOpaque());*/
     public static final Cutting_board CUTTING_BOARD = new Cutting_board();
+    public static final Mixing_bowl MIXING_BOWL = new Mixing_bowl();
 
     public static void registerAll(){
         Registry.register(Registry.BLOCK, new Identifier(immcook.MODID, "cutting_board"), CUTTING_BOARD);
+        Registry.register(Registry.BLOCK, new Identifier(immcook.MODID, "mixing_bowl"), MIXING_BOWL);
     }
 }
