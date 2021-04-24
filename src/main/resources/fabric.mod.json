@@ -16,8 +16,9 @@
     "main": [
       "fr.luki.immersivecooking.immcook"
     ],
-    "client": [],
-    "server": []
+    "client": [
+      "fr.luki.immersivecooking.init.client.ImmcookClient"
+    ]
   },
   "mixins": [
     "immcook.mixins.json"
